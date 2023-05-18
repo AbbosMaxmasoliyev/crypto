@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/crypto/static/css/main.4d4c5c50.css",
+    "main.js": "/crypto/static/js/main.0ebc2db3.js",
+    "static/js/787.471b0e31.chunk.js": "/crypto/static/js/787.471b0e31.chunk.js",
+    "static/media/Roboto-Regular.ttf": "/crypto/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Poppins-Regular.ttf": "/crypto/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/crypto/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/crypto/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "index.html": "/crypto/index.html",
+    "main.4d4c5c50.css.map": "/crypto/static/css/main.4d4c5c50.css.map",
+    "main.0ebc2db3.js.map": "/crypto/static/js/main.0ebc2db3.js.map",
+    "787.471b0e31.chunk.js.map": "/crypto/static/js/787.471b0e31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d4c5c50.css",
+    "static/js/main.0ebc2db3.js"
+  ]
+}

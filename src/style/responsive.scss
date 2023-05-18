@@ -1,0 +1,106 @@
+@media only screen and (max-width:1600px) {
+    .cryptosBlock {
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+        grid-template-rows: 50%;
+        overflow: hidden;
+        width: 95%;
+        height: 100%;
+        padding: 5px 20px;
+    }
+
+    .home {
+
+
+        .mainBlock {
+
+            border: 1px solid red;
+            grid-template-rows: 50% 50%;
+            .assets {
+                width: 93%;
+                height: 89%;
+            }
+
+            .crytoAll{
+                height: 47.5vh;
+            }
+
+
+        }
+    }
+}
+
+
+@media only screen and (max-width:1336px) {
+    .home {
+
+
+        .mainBlock {
+
+            border: 1px solid red;
+            grid-template-rows: 50% 50%;
+            gap: 30px;
+            box-sizing: border-box;
+
+
+            grid-template-areas:
+                "main main main  blok "
+                "assets assets assets  info";
+
+            grid-template-columns: 25% 25% 10% 35%;
+
+            .assets {
+                box-sizing: border-box;
+                height: 95%;
+            }
+
+            .crytoAll {
+                height: 45vh;
+            }
+
+        }
+    }
+
+}
+
+
+@media only screen and (max-width:1250px) {
+    .home {
+
+
+        .mainBlock {
+
+            border: 1px solid red;
+            grid-template-rows: 50% 50%;
+            gap: 30px;
+            box-sizing: border-box;
+
+
+            grid-template-areas:
+                "main main main  assets "
+                "blok blok info  info";
+
+            grid-template-columns: 25% 25% 10% 35%;
+
+            .assets {
+                box-sizing: border-box;
+                height: 95%;
+                width:95%;
+            }
+
+            .crytoAll {
+                height: 45vh;
+            }
+
+            .cryptosBlock{
+                height: 96%;
+                overflow-y: scroll;
+            }
+
+            &_CryptoMain{
+                height: 98%;
+            }
+
+        }
+    }
+
+}
